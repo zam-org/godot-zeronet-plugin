@@ -26,3 +26,4 @@ func get_python_bin():
 func stop():
 	if pid:
 		OS.kill(pid)
+

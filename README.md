@@ -29,3 +29,10 @@ ZeroNet.stop()
 ```
 
 If ZeroNet is not currently running, or if an instance of ZeroNet is running that wasn't started by this plugin, this is a no-op.
+
+If you want to ensure that ZeroNet does not continue running when your game is quit, add the following to a node that exists in the scene tree (or a Singleton):
+
+```
+func _exit_tree():
+    ZeroNet.stop()
+```
