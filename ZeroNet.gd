@@ -2,7 +2,7 @@ extends Node
 
 var pid = null
 
-func start(port=null):
+func start(port: int = null):
 	if port:
 		pid = OS.execute(get_python_bin(), ["./addons/ZeroNet/ZeroNet/zeronet.py", "--ui_port", port], false)
 	else:
@@ -26,4 +26,3 @@ func get_python_bin():
 func stop():
 	if pid:
 		OS.kill(pid)
-
