@@ -4,6 +4,10 @@ Run an embedded copy of ZeroNet in your Godot game.
 
 ## Install
 
+ZeroNet Godot can be installed directly from Godot using Godot Asset Library. Find ZeroNet Godot on the Asset Library [here](https://godotengine.org/asset-library/asset/327).
+
+Otherwise, ZeroNet Godot can be installed manually by downloading this repo and placing the files in `addons/ZeroNet` in your game files.
+
 ## Start ZeroNet
 
 To start a running copy of ZeroNet, use:
